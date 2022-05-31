@@ -5,7 +5,7 @@ pipeline {
 
        stage ("Lint Check"){
            steps {
-                sh echo hello World     
+                sh '''echo hello World!!!'''
 
            }  
        }
