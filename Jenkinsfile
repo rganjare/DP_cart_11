@@ -6,7 +6,9 @@ pipeline {
    stages{
        stage ("Lint Check"){
            steps {
+               script{
                 sample.lintChecks()
+               }
            }  
        }
    }
