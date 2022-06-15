@@ -1,4 +1,4 @@
 @Library('DP_shared-library@main') _
 
-env.COMPONENT="cart"
+env.COMPONENT="DP_cart"
 nodeJS()
